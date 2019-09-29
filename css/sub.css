@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+.event .tbl_style_01.mobile{
+	display: none;
+}
+
+@media screen and (max-width: 760px) {
+	
+	.board_list .content{
+		margin-top:0;
+	}
+	
+	.board_list .board_top{
+		margin-bottom:3%;
+	}
+	
+	.board_list .search_box{
+		float:none;
+		margin-top:5%;
+	}
+	
+	.board_list .board_top p{
+		font-size:12px;
+		margin-top:5%;
+	}
+	
+	.search_box select{
+		width:70px;
+		height:30px;
+		font-size:12px;
+	}
+	
+	.search_box .search{
+		width:152px;		
+	}
+	
+	.search_box input[type=text]{
+		height:28px;
+	}
+	
+	.search_box .btn_search{
+		height:28px;
+	}
+	
+	.promotion .tbl_style_01 td:nth-of-type(3){
+		display: none;
+	}
+	
+	.board_list .tbl_style_01 h4{
+		font-size:14px;
+		line-height:1.4;
+	}
+	
+	.board_list .tbl_style_01 p{
+		margin-top:4%;
+		font-size: 12px;
+	}
+	
+	.board_list .tbl_style_01 td{
+		padding:6% 0;
+		font-size: 10px;		
+	}
+	
+	.board_list .tbl_style_01 span{
+		margin-top:4%;
+		font-size:10px;	
+	}
+	
+	.event .tbl_style_01 td:nth-of-type(2){
+		width:30%;
+		padding-right:5%;
+	}
+	
+	.event .tbl_style_01 td img{
+		width:100%;
+		height:auto;
+	}
+	
+	.event .tbl_style_01 span{
+		width:56px;
+		height:20px;
+		line-height:20px;
+	}
+	
+	.event .tbl_style_01.pc{
+		display: none;
+	}
+	
+	.event .tbl_style_01.mobile{
+		display: block;
+	}
+	
+	.event .tbl_style_01 span{
+		margin-top:10%;
+	}
+	
+	.event .tbl_style_01 td:last-child{
+		padding-right:7%;
+	}
+	
+	.notice .tbl_style_01 p{
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	
+	.notice .tbl_style_01 td:nth-of-type(2){
+		padding-right:5%;
+		padding-left:5%;
+	}
+	
+	.notice .tbl_style_01 td:last-child{
+		display: none;
+	}
+	
+	.view .content{
+		margin-top:0;
+	}
+	
+	.view h4{
+		width:100%;
+		font-size:12px;
+		line-height:1.5;
+	}
+	
+	.view .info{
+		display: none;
+	}
+	
+	.view .head{
+		padding:4%;
+	}
+	
+	.view .body{
+		padding:9% 4%;
+		font-size:12px;
+	}
+	
+	.view .navi{
+		margin-top:7%;
+	}
+	
+	.view .navi p{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 13px;
+		padding:5% 5% 5% 30%;
+	}
+	
+	.view .navi span{
+		left:6%;
+		font-size:13px;
+		margin-top:-7px;
+	}
+	
+	.view .btn_wrap{
+		margin-top:10%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
